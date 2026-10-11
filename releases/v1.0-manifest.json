@@ -1,0 +1,20 @@
+{
+  "release": "v1.0",
+  "filename": "GG2000EnglishV1.dcp",
+  "size_bytes": 300006074,
+  "sha256": "9391e785caf722feb0b02bdd4b2dd4b1d6f750db741875e50f3b014a5dd7a952",
+  "unchanged_from_supplied_file": true,
+  "archive_entry_count": 4769,
+  "archive_extension_counts": {
+    ".xdelta": 2,
+    ".adx": 3669,
+    ".bin": 1097,
+    ".cpy": 1
+  },
+  "delta_entries": [
+    "1ST_READ.BIN.xdelta",
+    "TEX.AFS.xdelta"
+  ],
+  "contains_full_game_assets": true,
+  "patch_application_tested_during_preparation": false
+}
