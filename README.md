@@ -2,6 +2,19 @@
 
 English fan translation project by **Levine91** for Giant Gram 2000 on Dreamcast.
 
+Just an FYI, despite the use of AI, I'm a lifelong pro wrestling fan with extensive knowledge of puroresu as well, so much of this was easy enough to give a proper translation to.
+The AI was heavily relied on for automating all the graphics that needed to be ripped and reimplemented.
+
+As far as I can tell, I was able to get everything in the game translated with 2 exceptions:
+- There is a number of left over graphics that were clearly from the NAOMI version, so I did not bother with those.
+- In Create-A-Wrestler, the English alphabet is present but only a certain amount of letters. This may be fixed in a future update.
+
+Additionally, a couple of minor gameplay changes were implemented.
+- Originally, you could never leave the ring unless you knocked your opponent out of the ring or they knocked you out of the ring. It's now possible at any time to press "Y" next to the ropes and you'll go out on your own.
+- In VS mode, the Singles and Tag matches would always default to 1P vs. 2P and 1P/1P vs. 2P/2P. I've simply adjusted this so it now defaults to 1P vs. COM and 1P/1P vs. COM/COM. The other options remain intact, they just aren't the first selected now.
+
+Please submit an issue request if you find any mistakes or have any suggestions!
+
 This repository contains Python scripts generated with OpenAI Codex during the project, plus development documentation. Levine91 directed and reviewed the translation project; this is not a claim that Levine91 wrote the scripts. The playable patch is distributed separately as the **v1.0** release attachment, **GG2000EnglishV1.dcp**.
 
 ## Apply the patch
