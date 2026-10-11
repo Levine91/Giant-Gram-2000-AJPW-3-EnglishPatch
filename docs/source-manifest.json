@@ -1,0 +1,422 @@
+[
+  {
+    "path": "source/scripts/clean_controller_labels.py",
+    "role": "Remove original Japanese glyph overhangs above all 36 controller labels.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "0d253e7aa87f3e51cbc0cb1d036bfb503281be634c305f9abe66c582a35c962f"
+  },
+  {
+    "path": "source/scripts/correct_run.py",
+    "role": "Correct only the six Move labels in the existing options and pause patches.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "a5033554e3209f50738e50f3d3827189560cbc1a3fc1c10eaf5a432bc34d8eba"
+  },
+  {
+    "path": "source/scripts/extract_main_menu.py",
+    "role": "Extract main menu",
+    "category": "Data extraction",
+    "personal_paths_removed": false,
+    "sha256": "a22f308b2449a5ab0d0b92a53fb862dbe697ce013b98bdebfd87c47791436e0f"
+  },
+  {
+    "path": "source/scripts/fix_main_spacing.py",
+    "role": "Restore the exact prior menu rows; replace only History and CAW lettering.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "c49b5aa09787fbffd89f59f9976ff75fe6dbb7b62bdb48a3aa700aacc777be36"
+  },
+  {
+    "path": "source/scripts/fix_options_layout.py",
+    "role": "Repair options typography and missing setting labels on the cumulative archive.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "251b326881e1c0a3484e47cb9841497fe9db4ea6b20d1266a31333e1d356ac0f"
+  },
+  {
+    "path": "source/scripts/patch_backup_confirm.py",
+    "role": "Patch backup confirm",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "97ff69f1db5139002afc4dda1aa7ba9ceef4a1c5fe5cdec135b3ffde897d3bf0"
+  },
+  {
+    "path": "source/scripts/patch_caw.py",
+    "role": "Translate CAW texture labels, retaining earlier patches and untouched pixels.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "6b2d296c45310cd934feef898cd5a95ba6d67050530347b25487c19aef09e108"
+  },
+  {
+    "path": "source/scripts/patch_english_menu.py",
+    "role": "Pack generated English labels into the existing Dreamcast VQ texture.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "d864eac07c19e19ddbb197bd401e142f02966083f6f1367abcf2673f3eeef7fe"
+  },
+  {
+    "path": "source/scripts/patch_expanded.py",
+    "role": "Pause, tournament, Backup/loading localization plus runtime wrestler names.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "53e730d4b320e18843c62e881988af4ed233f57e0d20e93e8e4f392283706c47"
+  },
+  {
+    "path": "source/scripts/patch_options.py",
+    "role": "Pack options translations into the existing textures; keep the main-menu patch.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "d85509a85d759f756edbd8637dbd1dd74a1e73747564e134302b49e422642113"
+  },
+  {
+    "path": "source/scripts/patch_pause.py",
+    "role": "Translate pause textures on top of English_Options; requires NumPy/Pillow.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "9411aab784abeec9b5f2700eb09bfe63b0054a0f8635f41bc76d75be9214b507"
+  },
+  {
+    "path": "source/scripts/patch_vs.py",
+    "role": "Translate VS selection textures without changing earlier menu patches.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "52704716eedd99757bbbc3fee2b5192c26aa238f89211e0e322f818767f69af7"
+  },
+  {
+    "path": "source/scripts/patch_wrestler_names.py",
+    "role": "Localize selection-screen name rows, preserving the cumulative VS patch.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "1bfcab7aabd4e9553fb2a24cb4013faf1a69f008bd6497e4ad8c9e0576ef17d5"
+  },
+  {
+    "path": "source/scripts/polish_menus.py",
+    "role": "Consistent cap heights, centered pause labels, and outlined VS descriptions.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "0d123d96f788875e30b68a57c6debbf1bb0a6cb143efdb3c769c60a1f067e3b5"
+  },
+  {
+    "path": "source/scripts/rename_difficulty.py",
+    "role": "Replace only the options Level label in the corrected cumulative archive.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "fa21d1a53a06191f0084b56c1ffa76633956093c9a503c324a86f07385e8fe7b"
+  },
+  {
+    "path": "source/scripts/restore_main_style.py",
+    "role": "Restore the original English artwork and case; normalize its letter size.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "fe451b71f7c51da8f229d5d7493f222dad843e91fee5984982a8775a58626c88"
+  },
+  {
+    "path": "source/scripts/runtime_localize.py",
+    "role": "Localize existing two-byte text using unused font cells, without code hooks.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "51253f219f5a600b5902c71aec8aaa897df69c3bacfec6a6bee00c9aa5ec33cd"
+  },
+  {
+    "path": "source/scripts/build_verified.py",
+    "role": "Build a separate GDI; preserve originals and verify Mode 1 checksums.",
+    "category": "Reinsertion/build",
+    "personal_paths_removed": false,
+    "sha256": "93b0a80f0ba98715d75a1a0143b4c17bd02934a91c27ebe0ed000a702a17172a"
+  },
+  {
+    "path": "source/scripts/center_main_vs.py",
+    "role": "Optically center VS by shifting its existing artwork two pixels left.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "f498da0e9c84f7c3bda91a5c99ea5084fad1a5462cd762e5c51b378cc067c997"
+  },
+  {
+    "path": "source/scripts/fix_all_history_names.py",
+    "role": "Roll out approved History Mode lettering; no additional emulator tests.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "7590fba46d01614d50c16ca143f27811feda8c6481aa2245c686b40412278373"
+  },
+  {
+    "path": "source/scripts/fix_all_intro_names.py",
+    "role": "Apply the approved introduction lettering without any further emulator runs.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "50f02ae3d876072ac4d279dfe86ca08b5964f0c37beb672e173d4d58eda24ba0"
+  },
+  {
+    "path": "source/scripts/fix_arcade.py",
+    "role": "Render the prompt across its two actual atlas interiors, excluding the frame.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "f2048aa0fd3209f65ada27563f7592fad189cd4ebd3a03b90619d9fa9df8048c"
+  },
+  {
+    "path": "source/scripts/fix_arcade_tag.py",
+    "role": "Render the prompt across its two actual atlas interiors, excluding the frame.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "567b5de8cf8b34bc92783ac48934d25a99c1306d0b20f6f3319df9754b8c5962"
+  },
+  {
+    "path": "source/scripts/fix_catchphrase_update.py",
+    "role": "Translate the complete CAW word bank and History Match 2; align Weight.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "a3e9aa4174da6bb0e5936952c1dc4f4e436b5fb13fc553dee688ab17cf1ab564"
+  },
+  {
+    "path": "source/scripts/fix_caw_alignment.py",
+    "role": "Fix caw alignment",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "edad06c57db4d489542c0593e263ef8967ed3f8e59f412521eb24655a985fb81"
+  },
+  {
+    "path": "source/scripts/fix_caw_polish.py",
+    "role": "Fix caw polish",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "4a6f2e998fbc0cbf693443515a5f16c3101d0639881410a1758e5066b66546ba"
+  },
+  {
+    "path": "source/scripts/fix_caw_requests.py",
+    "role": "Fix caw requests",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "4c12e4df03af8ddbbbec917565fa5dcf831d68e2b75764c5a4a508ce7f05ec8a"
+  },
+  {
+    "path": "source/scripts/fix_credit_translations.py",
+    "role": "Translate the three remaining Japanese credit cards across their tile seams.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "7e1b0784a161d6d59136e988a918af9a4c629576f54ff992242387358d7f772e"
+  },
+  {
+    "path": "source/scripts/fix_history_13_24.py",
+    "role": "Translate the twelve alternate-perspective Historic Match descriptions.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "0779ea6607299117e5a07d5e162e6ca8ff45193c40313a26b6b1631f450d0e13"
+  },
+  {
+    "path": "source/scripts/fix_history_match3.py",
+    "role": "Install the third History Mode passage in its original text slot.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "cb449c23983444bf6e27136c9903788c988ee3cc2e75df55af4fbff89752cbad"
+  },
+  {
+    "path": "source/scripts/fix_history_match4.py",
+    "role": "Use a reusable History alphabet and align the History pause choices.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "29907999bf65a396a30d029055e50e3f27288f4a9075177eba8380038c2ae777"
+  },
+  {
+    "path": "source/scripts/fix_history_polish.py",
+    "role": "Fix history polish",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "49d52ba42db0ebed10d5a8544b6abeadf9b9f4a9c8dd69ca0cb3256d2b70248a"
+  },
+  {
+    "path": "source/scripts/fix_history_remaining.py",
+    "role": "Translate History matches 5-12 with the established single-letter font.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "6ec99c29ea1f84e03832344558ff5f6b841ad8d5b95b8ccfb75922e5853677bb"
+  },
+  {
+    "path": "source/scripts/fix_history_results.py",
+    "role": "Translate the pin objective and repair complete result-label strips.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "90d93a46f8e3ad58e5f37840cd3b92e187f602c86f7dcef625898c4e1e7f177e"
+  },
+  {
+    "path": "source/scripts/fix_history_sample.py",
+    "role": "Fix history sample",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "f3782073a4dde0a770758e770478e38da35cb2822c6dae0dca942243fb040768"
+  },
+  {
+    "path": "source/scripts/fix_history_story.py",
+    "role": "Install the user-approved first History Mode passage in its original text slot.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "a9f3b27a3c93e0c68278c67e3451d92ccdbf2e2affb49b518ddea938603ef052"
+  },
+  {
+    "path": "source/scripts/fix_history_ui.py",
+    "role": "Fix history ui",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "43690f091b66788d465f54516af3fc465778bab11e8e9c1228169d1222f8eca4"
+  },
+  {
+    "path": "source/scripts/fix_history_weight_credit.py",
+    "role": "Match the shared history-button lettering to its digits; add translation credit.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "a2b5a08450a5114e029a561a7857f9011997d9ef1c5047a39768a7b8b38f13bf"
+  },
+  {
+    "path": "source/scripts/fix_interview_names.py",
+    "role": "Translate the remaining two interview name atlases; preserve translated labels.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "e066f8ed8ee3999ab33a3531b03cf034f30b1cec2e745aecae6106f2988c311e"
+  },
+  {
+    "path": "source/scripts/fix_intro_sample.py",
+    "role": "Two-name approval sample only: one continuous strip per introduction name.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "6090dadebc377273b70d59b89ce8734a5eb6c11236981532a357c6969df98150"
+  },
+  {
+    "path": "source/scripts/fix_match_messages.py",
+    "role": "Translate shared match sprites while preserving adjacent art and atlas geometry.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "a849ac7ec5e6cc4c5ddaece7edc392a018f27dd1c735542d7d2f94b91da914ec"
+  },
+  {
+    "path": "source/scripts/fix_missed_moves.py",
+    "role": "Fill missed move tables by reusing the game's existing translated strings.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "05888eb846a27541674ec366efbeda09dde2a91aa402e67b188f92ee84c3378a"
+  },
+  {
+    "path": "source/scripts/fix_moves.py",
+    "role": "Fix moves",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "518d6e4bb7cc4c545178e3c4f6d51ae39280047ced9285467513cdc5256955c5"
+  },
+  {
+    "path": "source/scripts/fix_october_labels.py",
+    "role": "Translate the requested injury, result, system and Honda interview labels.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "abc4605c9d09085568897d18e0e997b3e2f4fda793c6a99d1c5d51622bfbea41"
+  },
+  {
+    "path": "source/scripts/fix_prompt.py",
+    "role": "Render the prompt across its two actual atlas interiors, excluding the frame.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "0d6266cf49165a0ed7f134ababc3bdb9f657d892e41225b2b934023e64d5dde7"
+  },
+  {
+    "path": "source/scripts/fix_remaining_ui.py",
+    "role": "Remaining tournament labels and command prefixes; isolate the ring prompt sprite.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "c81fbf3f06410b1fbaaafba18d0662c7291db96500f638050fbdcb64d34625c1"
+  },
+  {
+    "path": "source/scripts/fix_rules_lettering.py",
+    "role": "Restore rule brackets and the original warm gradient, gold rim and shadow.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "c921d80e7c27340641763ee8d1cdb7d6468d2347b1e451ce82c6d53b6dc17aaa"
+  },
+  {
+    "path": "source/scripts/fix_tournament_alignment.py",
+    "role": "Align tournament names and the two split-atlas confirmation prompts.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "cf1b52d31e3e8b9e964960f0c7abc401a82019387890dc634b9edca86e976716"
+  },
+  {
+    "path": "source/scripts/fix_venue_cards.py",
+    "role": "Fit generated English headings into the three existing venue-card textures.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": true,
+    "sha256": "8c3206e868d317b5e5a69a718e2cd4b57896a6c2ee40bfa59f10dfb5e7bf4b30"
+  },
+  {
+    "path": "source/scripts/fix_vmu_port.py",
+    "role": "Fix vmu port",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "5a6198b394aa31968c3fdcf492635977052d8b8175a375b6ce5ccb7df1d63c98"
+  },
+  {
+    "path": "source/scripts/install_verified.py",
+    "role": "Install verified",
+    "category": "Reinsertion/build",
+    "personal_paths_removed": false,
+    "sha256": "326289b2f42af6112e2eb1847bbdb61d7e4f8ff1a5d900b3465b6f9df0acd596"
+  },
+  {
+    "path": "source/scripts/translate_all_interviews.py",
+    "role": "Replace the complete interview bank without changing its selectors or unrelated text.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "998433f60179171e9d90c9d77a47b653b7100f3b8677db8087697022f4b4e529"
+  },
+  {
+    "path": "source/scripts/translate_champion_panels.py",
+    "role": "Localize championship atlas cells using the existing game texture pipeline.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "46962475e04747cf4034f057adbc0705b8ca21ada199235ddd8630ba768835de"
+  },
+  {
+    "path": "source/scripts/translate_how_to_play.py",
+    "role": "Translate the six requested tutorial tiles; preserve the 512-pixel strip packing.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "567fea823db9cef316fdf82873da8fa7ab0e7307cebfd4ea575c3b6063748f69"
+  },
+  {
+    "path": "source/scripts/translate_tit4_panels.py",
+    "role": "Localize the six ranking/VM tutorial tiles without changing their sprite layout.",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "6dfd88b9b7fa92d8858390c68e0e844353c0b6c02d8e3fb8cb9ed77f664d66be"
+  },
+  {
+    "path": "source/scripts/widen_caw_labels.py",
+    "role": "Widen caw labels",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "7990d5bd1047c1987fa3c8d3a6701b005e28dc417eae2399e11f917c9bf89868"
+  },
+  {
+    "path": "source/scripts/fix_name_spacing.py",
+    "role": "Fix name spacing",
+    "category": "Graphics/font editing and reinsertion",
+    "personal_paths_removed": false,
+    "sha256": "c9f7455d4f329b0faf80fcbfe7cb16071670f5ff3a36206af0fabe710c41f361"
+  },
+  {
+    "path": "source/scripts/fix_vs_defaults.py",
+    "role": "Default VS to player one versus CPU; preserve all six matchup choices.",
+    "category": "Requested ring-exit / VS-default gameplay change",
+    "personal_paths_removed": false,
+    "sha256": "180f5005a20f7352705f6759a5cf2bd80ce670252beefecf60a9e95d3d952a37"
+  },
+  {
+    "path": "source/scripts/fix_champion_and_tag_exit.py",
+    "role": "Keep the champion texture continuous and enable the shared exit path in tags.",
+    "category": "Requested ring-exit / VS-default gameplay change",
+    "personal_paths_removed": false,
+    "sha256": "7b839481f09a97a683e4b1dc8fb0c7629ed555ec2b61b504cb4d50c4cc7f320c"
+  },
+  {
+    "path": "source/scripts/fix_manual_ring_exit.py",
+    "role": "Generate the manual ring-exit patch, isolated from the reverted model experiment.",
+    "category": "Requested ring-exit / VS-default gameplay change",
+    "personal_paths_removed": false,
+    "sha256": "ecd90020b0594c2532da16ef3bd68cac4980a514c093077afe67a8ccfe97f71b"
+  }
+]
