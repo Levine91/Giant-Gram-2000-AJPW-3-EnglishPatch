@@ -1,4 +1,4 @@
-# Giant Gram 2000 — English Translation
+# Giant Gram 2000: All Japan Pro Wrestling 3 - English Translation
 
 English fan translation project by **Levine91** for Giant Gram 2000 on Dreamcast.
 
@@ -14,6 +14,16 @@ Additionally, a couple of minor gameplay changes were implemented.
 - In VS mode, the Singles and Tag matches would always default to 1P vs. 2P and 1P/1P vs. 2P/2P. I've simply adjusted this so it now defaults to 1P vs. COM and 1P/1P vs. COM/COM. The other options remain intact, they just aren't the first selected now.
 
 Please submit an issue request if you find any mistakes or have any suggestions!
+
+
+<img width="400" height="300" alt="Flycast-2026-10-14 02-42-24resize" src="https://github.com/user-attachments/assets/a3fd60a5-5c48-4f70-862b-0e090541abd1" /><img width="400" height="300" alt="Flycast-2026-10-14 02-44-04resize" src="https://github.com/user-attachments/assets/ea8be4fe-d9c5-4545-ace1-21b51ced7b38" />
+<img width="400" height="300" alt="Flycast-2026-10-14 02-48-16resize" src="https://github.com/user-attachments/assets/2ca42768-01df-442a-acf2-edf7a259405b" />
+<img width="400" height="300" alt="Flycast-2026-10-14 02-43-38resize" src="https://github.com/user-attachments/assets/2fc3729d-1ad8-497d-bf85-c0375500ed93" />
+
+
+
+
+
 
 This repository contains Python scripts generated with OpenAI Codex during the project, plus development documentation. Levine91 directed and reviewed the translation project; this is not a claim that Levine91 wrote the scripts. The playable patch is distributed separately as the **v1.0** release attachment, **GG2000EnglishV1.dcp**.
 
